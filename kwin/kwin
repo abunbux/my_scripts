@@ -1,0 +1,6 @@
+#!/bin/sh
+
+
+killall -9 kwin_x11
+
+DISPLAY=:0 nohup kwin_x11 --replace &>/dev/null &
